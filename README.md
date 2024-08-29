@@ -1,5 +1,7 @@
 # Radio Garden API .NET Library
 
+[![Nuget](https://img.shields.io/nuget/v/RadioGarden.NET)](https://www.nuget.org/packages/RadioGarden.NET/)
+
 This .NET library provides an interface to interact with the [Radio Garden](https://radio.garden/) API, allowing you to retrieve information about radio channels, places, and geolocation data.
 
 ## Features
