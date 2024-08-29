@@ -33,7 +33,7 @@ var channels = await client.GetPlaceChannelsAsync("yaXwoZ5Z");
 
 ### Retrieves detailed information about a specific radio channel
 ```
-var channels = await client.GetChannelDetailsAsync("F5Rrw1YB");
+var channelDetails = await client.GetChannelDetailsAsync("F5Rrw1YB");
 ```
 
 ### Retrieves the broadcast stream URL for a specific radio channel
