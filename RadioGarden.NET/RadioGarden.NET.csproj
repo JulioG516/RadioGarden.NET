@@ -12,6 +12,7 @@
         <RepositoryUrl>https://github.com/JulioG516/RadioGarden.NET</RepositoryUrl>
         <RepositoryType>Git</RepositoryType>
         <PackageTags>Radio, RadioGarden, Audio Stream</PackageTags>
+        <Version>1.0.1</Version>
     </PropertyGroup>
 
     <ItemGroup>

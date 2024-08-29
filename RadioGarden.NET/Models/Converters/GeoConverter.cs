@@ -6,7 +6,7 @@ namespace RadioGarden.NET.Models.Converters
     /// <summary>
     /// Custom serializer due to Geo Response comes in as an Array.
     /// </summary>
-    public class GeoConverter : System.Text.Json.Serialization.JsonConverter<Geo>
+    internal class GeoConverter : System.Text.Json.Serialization.JsonConverter<Geo>
     {
         /// <inheritdoc />
         public override Geo Read(ref Utf8JsonReader reader, Type typeToConvert, JsonSerializerOptions options)
