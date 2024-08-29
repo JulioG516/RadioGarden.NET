@@ -9,7 +9,7 @@ This .NET library provides an interface to interact with the [Radio Garden](http
 - Retrieve the stream url from a specific radio channel.
 - Search for radio channels by query.
 - Retrieve the client's geolocation.
-- Supports both asynchronous and synchronous operations.
+- Supports asynchronous operations.
 
 
 ## Usage
