@@ -4,10 +4,17 @@
         <TargetFramework>netstandard2.1</TargetFramework>
         <Nullable>enable</Nullable>
         <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Title>RadioGarden.NET</Title>
+        <Authors>JulioG516</Authors>
+        <Description>🌐 Radio Garden API .NET Library 🎧 A .NET library for interacting with the Radio Garden API, enabling retrieval of radio channel details, place-specific stations, stream URLs, and client geolocation. Supports both asynchronous and synchronous operations.</Description>
+        <PackageProjectUrl>https://github.com/JulioG516/RadioGarden.NET</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/JulioG516/RadioGarden.NET</RepositoryUrl>
+        <RepositoryType>Git</RepositoryType>
+        <PackageTags>Radio, RadioGarden, Audio Stream</PackageTags>
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="RestSharp" Version="111.4.1" />
       <PackageReference Include="System.Text.Json" Version="8.0.4" />
     </ItemGroup>
 
